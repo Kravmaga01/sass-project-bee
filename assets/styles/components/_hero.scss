@@ -1,0 +1,29 @@
+.hero {
+  text-align: center;
+  &_continer {
+    display: grid;
+    place-content: center;
+  }
+  &_header-img {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__heder-img img {
+    place-self: center;
+    width: 42px;
+    height: 42px;
+  }
+  &__header h1 {
+    padding-inline: 1rem;
+  }
+  &_brand-icon {
+    width: 42px;
+    height: 42px;
+  }
+}
+
+.hero h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5rem;
+}

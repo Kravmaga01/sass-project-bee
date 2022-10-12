@@ -1,0 +1,157 @@
+@import url("https://rsms.me/inter/inter.css");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  text-decoration: none;
+  text-rendering: optimizeLegibility;
+}
+
+.shadow {
+  border-radius: 0.5rem;
+  box-shadow: 0 13px 27px -5px hsla(240deg, 30.1%, 28%, 0.25), 0 8px 16px -8px hsla(0deg, 0%, 0%, 0.3), 0 -6px 16px -6px hsla(0deg, 0%, 0%, 0.03);
+}
+
+html {
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+  font-size: 100%;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  max-width: 992px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+}
+
+.section {
+  padding: 100px 0;
+  background-color: #fff;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+}
+
+.small {
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+@media (min-width: 992px) {
+  .grid {
+    grid-template-columns: auto auto;
+  }
+}
+html {
+  font-family: "Inter", sans-serif;
+}
+
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: "Inter var", sans-serif;
+  }
+}
+a {
+  text-decoration: none;
+  color: #386bf3;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 2.625rem;
+}
+
+p {
+  line-height: 1.6;
+}
+
+code {
+  background-color: #f4f7fc;
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
+}
+
+pre {
+  white-space: nowrap;
+  padding: 0.875rem;
+  margin-bottom: 1.625rem;
+  border-radius: 0.5rem;
+  background-color: #f4f7fc;
+  font-size: 0.875rem;
+}
+
+.sub-title-large {
+  font-size: 2.25rem;
+}
+
+.sub-title-small {
+  font-weight: 300;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.section-background {
+  background-color: #f4f8fc;
+}
+
+.hero {
+  text-align: center;
+}
+.hero_continer {
+  display: grid;
+  place-content: center;
+}
+.hero_header-img {
+  display: flex;
+  justify-content: center;
+}
+.hero__heder-img img {
+  place-self: center;
+  width: 42px;
+  height: 42px;
+}
+.hero__header h1 {
+  padding-inline: 1rem;
+}
+.hero_brand-icon {
+  width: 42px;
+  height: 42px;
+}
+
+.hero h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5rem;
+}/*# sourceMappingURL=styles.css.map */
